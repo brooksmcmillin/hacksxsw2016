@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f7b22755-2021-486f-8a4e-fb45c32a05b3" name="Amazon Server" url="http://weareconcerts.live">
+        <fileTransfer host="brooksmcmillin.com" port="22" accessType="SFTP" username="valet">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
