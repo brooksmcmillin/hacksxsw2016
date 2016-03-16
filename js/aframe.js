@@ -52470,11 +52470,7 @@
             "ghpages": "node ./scripts/gh-pages",
             "lint": "semistandard -v $(git ls-files '*.js') | standard-reporter --stylish",
             "precommit": "npm run lint",
-<<<<<<< HEAD
             "preghpages": "npm run dist && rimraf gh-pages && mkdirp gh-pages && cp -r {.nojekyll,dist,lib,examples,view.php,style} gh-pages/. 2>/dev/null || : && git checkout dist/ && replace 'build/aframe.js' 'dist/aframe.min.js' gh-pages/ -r --silent",
-=======
-            "preghpages": "npm run dist && rimraf gh-pages && mkdirp gh-pages && cp -r {.nojekyll,dist,lib,examples,index.html,style} gh-pages/. 2>/dev/null || : && git checkout dist/ && replace 'build/aframe.js' 'dist/aframe.min.js' gh-pages/ -r --silent",
->>>>>>> 8f510812cb5cf7b7b91d33367e88f60ffa442f8e
             "release:bump": "npm run dist && git commit -am 'bump dist' && npm version patch --preminor",
             "release:push": "npm login && npm publish && git push --follow-tags",
             "start": "npm run dev",
