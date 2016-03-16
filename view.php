@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title><?php echo $videoName ?></title>
     <meta name="description" content="We Are Concerts!">
-    <script src="js/aframe.js"></script>
+    <script src="assets/js/aframe.js"></script>
 </head>
 <body>
 <a-scene stats="true">
