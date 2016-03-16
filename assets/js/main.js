@@ -7,5 +7,17 @@
 				$('#theMenu').toggleClass('menu-open');
 			});
 
+			$(function(){
+				$.stellar({
+					horizontalScrolling: false,
+					verticalOffset: 40
+				});
+			});
+
+			$(function() {
+				//    fancybox
+					jQuery(".fancybox").fancybox();
+			});
+
 
 })(jQuery)
